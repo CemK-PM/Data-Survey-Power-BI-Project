@@ -22,9 +22,9 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 
 ## 📁 Project Structure
 
-* **[Power BI Dashboard (PBIX)](Data%20Survey%20for%20Github.pbix)**: Main project file (located in root).
-* **[Cleaned Dataset](data/Data%20Survey%20Cleaned.xlsx%20-%20Sayfa1.csv)**: Processed and cleaned data in the data folder.
-* **[Raw Survey Data](data/Power%20BI%20-%20Data%20Survey%20Project.xlsx%20-%20Data%20Professional%20Survey.csv)**: Original raw dataset in the data folder.
+* **[Power BI Dashboard (PBIX)](data/Data%20Survey%20for%20Github.pbix)**: Main project file.
+* **[Cleaned Dataset](data/Data%20Survey%20Cleaned.xlsx)**: Processed and cleaned data.
+* **[Raw Survey Data](data/Power%20BI%20-%20Data%20Survey%20Project.xlsx)**: Original raw dataset.
 
 ## 🚀 Key Insights
 * **Tool Dominance:** SQL and Python stand out as the most essential programming languages across all data-related roles.
