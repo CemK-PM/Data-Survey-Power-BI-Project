@@ -20,8 +20,8 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 
 ## 🎥 Dynamic Demo
 *(Interactive demonstration of filters and drill-downs)*
+![Dashboard Demo](assets/Video%20Project%203%20%281%29.gif)
 
-https://github.com/CemK-PM/Data-Survey-Power-BI-Project/assets/Video%20Project%203.mp4
 
 ## 🧠 Technical Highlights: DAX Logic
 To add advanced functionality and dynamic insights to the dashboard, I developed custom DAX measures:
