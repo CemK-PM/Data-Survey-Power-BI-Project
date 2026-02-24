@@ -15,12 +15,8 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 * **[Cleaned Dataset](data/Data%20Survey%20Cleaned.xlsx)**: Processed and cleaned data.
 * **[Raw Survey Data](data/Power%20BI%20-%20Data%20Survey%20Project.xlsx)**: Original raw dataset.
 
-## 🖥️ Dashboard Video Preview: Data Survey 1
+## 🖥️ Dashboard Dinamic Demo: Data Survey 1
 https://github.com/user-attachments/assets/d6be30c8-7ae8-4fd1-9abb-2809b827c3d4
-
-## 🎥 Dynamic Demo
-*(Interactive demonstration of filters and drill-downs)*
-
 
 ## 🧠 Technical Highlights: DAX Logic
 To add advanced functionality and dynamic insights to the dashboard, I developed custom DAX measures:
