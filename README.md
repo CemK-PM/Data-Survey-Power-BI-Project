@@ -7,11 +7,7 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 
 * **Salary Normalization:** Transformed text-based salary ranges (e.g., "40k-65k") into a numeric **"Average Salary"** column to enable quantitative analysis.
 * **Category Standardization:** Cleaned and standardized entries for **Job Titles**, **Industries**, and **Countries** by removing "Other (Please Specify)" noise.
-* **Data Refinement:** Removed irrelevant technical metadata and ensured all fields were c
-
-https://github.com/user-attachments/assets/d6be30c8-7ae8-4fd1-9abb-2809b827c3d4
-
-orrectly cast into appropriate data types.
+* **Data Refinement:** Removed irrelevant technical metadata and ensured all fields were correctly cast into appropriate data types.
 
 ## 📁 Project Structure
 
@@ -19,8 +15,8 @@ orrectly cast into appropriate data types.
 * **[Cleaned Dataset](data/Data%20Survey%20Cleaned.xlsx)**: Processed and cleaned data.
 * **[Raw Survey Data](data/Power%20BI%20-%20Data%20Survey%20Project.xlsx)**: Original raw dataset.
 
-## 🖥️ Dashboard Preview: Data Survey 1
-![Data Survey 1 Preview](assets/Data%20Survey%201.png)
+## 🖥️ Dashboard Video Preview: Data Survey 1
+[![Data Survey 1 Preview](assets/Data%20Survey%201.png)](https://github.com/user-attachments/assets/d6be30c8-7ae8-4fd1-9abb-2809b827c3d4)
 
 ## 🎥 Dynamic Demo
 *(Interactive demonstration of filters and drill-downs)*
