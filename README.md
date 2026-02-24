@@ -7,7 +7,11 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 
 * **Salary Normalization:** Transformed text-based salary ranges (e.g., "40k-65k") into a numeric **"Average Salary"** column to enable quantitative analysis.
 * **Category Standardization:** Cleaned and standardized entries for **Job Titles**, **Industries**, and **Countries** by removing "Other (Please Specify)" noise.
-* **Data Refinement:** Removed irrelevant technical metadata and ensured all fields were correctly cast into appropriate data types.
+* **Data Refinement:** Removed irrelevant technical metadata and ensured all fields were c
+
+https://github.com/user-attachments/assets/d6be30c8-7ae8-4fd1-9abb-2809b827c3d4
+
+orrectly cast into appropriate data types.
 
 ## 📁 Project Structure
 
@@ -20,8 +24,6 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 
 ## 🎥 Dynamic Demo
 *(Interactive demonstration of filters and drill-downs)*
-
-<img src="assets/Video%20Project%203%20%281%29.gif" width="100%">
 
 
 ## 🧠 Technical Highlights: DAX Logic
