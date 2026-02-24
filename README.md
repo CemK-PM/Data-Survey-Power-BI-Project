@@ -20,7 +20,8 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 
 ## 🎥 Dynamic Demo
 *(Interactive demonstration of filters and drill-downs)*
-![Dashboard Demo](assets/Video%20Project%203%20%281%29.gif)
+
+<img src="assets/Video%20Project%203%20%281%29.gif" width="100%">
 
 
 ## 🧠 Technical Highlights: DAX Logic
