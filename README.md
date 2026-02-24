@@ -28,6 +28,7 @@ To add advanced functionality and dynamic insights to the dashboard, I developed
 ### 1. Dynamic Bar Coloring (Conditional Formatting)
 Automatically highlights the Highest (Green) and Lowest (Red) salaries in the visual based on the current filtered view.
 
+<pre><code>
 Min Max Bar Color = 
 VAR CurrentSalary = AVERAGE('Data Professional Survey'[Average Salary]) 
 VAR AllSalaries = 
@@ -47,10 +48,12 @@ RETURN
         CurrentSalary = MinSalaryInView, "#D38B7D", 
         "#A6A6A6" 
     )
+</code></pre>
 
 ### 2. Dynamic Top Job Priority
 Identifies the #1 most important factor for job seekers within the selected demographic.
 
+<pre><code>
 Top Job Priority = 
 TOPN(
     1, 
@@ -58,10 +61,12 @@ TOPN(
     CALCULATE(COUNT('Data Professional Survey'[Q8 - If you were to look for a new job today, what would be the most important thing to you?])), 
     DESC
 )
+</code></pre>
 
 ### 3. Difficulty Index Mapping
 Converts qualitative survey responses into a sortable numeric scale to enable ranking and average difficulty calculations.
 
+<pre><code>
 Difficulty_order_ = 
 SWITCH('Data Professional Survey'[Q7 - How difficult was it for you to break into Data?],
     "Very Easy", 1,
@@ -71,6 +76,7 @@ SWITCH('Data Professional Survey'[Q7 - How difficult was it for you to break int
     "Very Difficult", 5,
     6
 )
+</code></pre>
 
 ## 🚀 Key Insights
 * **Tool Dominance:** SQL and Python stand out as the most essential programming languages across all data-related roles.
