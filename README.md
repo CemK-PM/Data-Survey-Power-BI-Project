@@ -16,7 +16,7 @@ The raw survey data was highly unorganized and inconsistent. The entire **ETL (E
 * **[Raw Survey Data](data/Power%20BI%20-%20Data%20Survey%20Project.xlsx)**: Original raw dataset.
 
 ## 🖥️ Dashboard Video Preview: Data Survey 1
-[![Data Survey 1 Preview](assets/Data%20Survey%201.png)](https://github.com/user-attachments/assets/d6be30c8-7ae8-4fd1-9abb-2809b827c3d4)
+[![Data Survey 1 Preview](https://github.com/user-attachments/assets/d6be30c8-7ae8-4fd1-9abb-2809b827c3d4)
 
 ## 🎥 Dynamic Demo
 *(Interactive demonstration of filters and drill-downs)*
