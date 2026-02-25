@@ -1,0 +1,45 @@
+/*
+  DAX Measures for Data Professional Survey Dashboard
+  Author: Cem
+*/
+
+// 1. Dynamic Bar Coloring based on Min/Max Salary in Current View
+Min Max Bar Color = 
+VAR CurrentSalary = AVERAGE('Data Professional Survey'[Average Salary]) 
+VAR AllSalaries = 
+    CALCULATETABLE(
+        VALUES('Data Professional Survey'[Q1 - Which Title Best Fits your Current Role?.1]),
+        ALLSELECTED('Data Professional Survey')
+    )
+VAR MinSalaryInView = 
+    MINX(AllSalaries, CALCULATE(AVERAGE('Data Professional Survey'[Average Salary])))
+VAR MaxSalaryInView = 
+    MAXX(AllSalaries, CALCULATE(AVERAGE('Data Professional Survey'[Average Salary])))
+
+RETURN
+    SWITCH( TRUE(),
+        ISBLANK(CurrentSalary), "#A6A6A6",
+        CurrentSalary = MaxSalaryInView, "#006644", // Deep Green for Max
+        CurrentSalary = MinSalaryInView, "#D38B7D", // Soft Red for Min
+        "#A6A6A6" // Neutral Grey for others
+    )
+
+// 2. Extracts the #1 priority for job seekers dynamically
+Top Job Priority = 
+TOPN(
+    1, 
+    VALUES('Data Professional Survey'[Q8 - If you were to look for a new job today, what would be the most important thing to you?]), 
+    CALCULATE(COUNT('Data Professional Survey'[Q8 - If you were to look for a new job today, what would be the most important thing to you?])), 
+    DESC
+)
+
+// 3. Custom Sort Order for Difficulty Levels
+Difficulty_order_ = 
+SWITCH('Data Professional Survey'[Q7 - How difficult was it for you to break into Data?],
+    "Very Easy", 1,
+    "Easy", 2,
+    "Neither easy nor difficult", 3,
+    "Difficult", 4,
+    "Very Difficult", 5,
+    6
+)
